@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입</title>
+
+<script src="./js/jquery.min.js"></script>
+<script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+<script>
+	$(window).on("load",function(){
+		//alert("load");
+		
+		$("#find_button").click(function(){
+			alert("find!");
+			
+			new daum.Postcode({
+
+				oncomplete:function(data) {
+
+					jQuery("#zonecode").val(data.zonecode);
+					jQuery("#address").val(data.address);
+
+					jQuery("#detail").focus();	
+					
+					$("#zonecode").css({background:"gray"});
+					$("#address").css({background:"gray"});
+
+				}
+
+			}).open();
+			
+		});
+	
+	})
+	//웹서버 환경에서 실행해야 완료가 됨
+</script>
+
+</head>
+<body>
+	<form action="./signin_action.jsp" method="post">	
+			
+			<label for="name">이름</label>
+			<input type="text" name="name" id="name"><br>		
+			
+			<label for="id">아이디</label>
+			<input type="text" name="id" id="id"><br>
+			
+			<label for="pw">패스워드</label>
+			<input type="password" name="pw" id="pw"><br>
+			
+			<label for="pw_confirm">패스워드 확인</label>
+			<input type="password" name="pw_confirm" id="pw_confirm"><br>
+			
+			<label for="civil_id">주민등록번호</label>
+			<input type="text" name="civil_id1" id="civil_id1">
+			-<input type="text" name="civil_id2" id="civil_id2"><br>
+	
+			<label for="phone">전화번호</label>
+			<input type="text" name="phone1" id="phone1">
+			-<input type="text" name="phone2" id="phone2"> 
+			-<input type="text" name="phone3" id="phone3">
+			<br>
+			
+			<label for="address">주소</label>
+			<input type="button" id="find_button" value="주소 찾기"><br>
+			
+			<input type="text" name="zonecode" id="zonecode" placeholder="우편번호" readonly> <br>
+			<input type="text" name="address" id="address" placeholder="도로명주소" readonly> <br>
+			<input type="text" name="detail" id="detail" placeholder="상세주소"> <br>
+			
+			
+			<label for="email">이메일</label>
+			<input type="text" name="email" id="email"><br>
+			
+			<input type="submit" name="signin" id="signin" value="회원가입">
+	</form>
+</body>
+</html>
