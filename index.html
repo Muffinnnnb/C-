@@ -19,7 +19,7 @@
 
 <script>
 var map = new naver.maps.Map("map", {
-  center: new naver.maps.LatLng(37.3595316, 127.1052133),
+  center: new naver.maps.LatLng(35.829967, 128.7544543),
   zoom: 15,
   mapTypeControl: true
 });
@@ -65,8 +65,8 @@ function searchCoordinateToAddress(latlng) {
         htmlAddresses.push('[도로명 주소] ' + address.roadAddress);
     }
 
-    if (address.roadAddress !== '') {
-        htmlAddresses.push('[좌표] ' + "X: "+latlng.x+"Y: "+latlng.y);
+    if (address.latlng !== '') {
+        htmlAddresses.push('[좌표] ' + "X: "+latlng.x+" Y: "+latlng.y);
     }
 
     infoWindow.setContent([
@@ -92,7 +92,7 @@ function searchAddressToCoordinate(address) {
     }
 
     if (response.v2.meta.totalCount === 0) {
-      return alert('No result.');
+      return alert('검색결과가 없습니다.');
     }
 
     var htmlAddresses = [],
@@ -109,6 +109,10 @@ function searchAddressToCoordinate(address) {
 
     if (item.englishAddress) {
       htmlAddresses.push('[영문명 주소] ' + item.englishAddress);
+    }
+
+    if (item) {
+        htmlAddresses.push('[좌표] ' + "X: "+item.x+" Y: "+item.y);
     }
     
 
