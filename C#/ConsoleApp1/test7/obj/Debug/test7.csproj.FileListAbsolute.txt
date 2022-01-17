@@ -1,0 +1,10 @@
+C:\Users\cyzh8\source\C#\ConsoleApp1\test7\bin\Debug\test7.exe.config
+C:\Users\cyzh8\source\C#\ConsoleApp1\test7\bin\Debug\test7.exe
+C:\Users\cyzh8\source\C#\ConsoleApp1\test7\bin\Debug\test7.pdb
+C:\Users\cyzh8\source\C#\ConsoleApp1\test7\obj\Debug\test7.csproj.SuggestedBindingRedirects.cache
+C:\Users\cyzh8\source\C#\ConsoleApp1\test7\obj\Debug\test7.Form1.resources
+C:\Users\cyzh8\source\C#\ConsoleApp1\test7\obj\Debug\test7.Properties.Resources.resources
+C:\Users\cyzh8\source\C#\ConsoleApp1\test7\obj\Debug\test7.csproj.GenerateResource.cache
+C:\Users\cyzh8\source\C#\ConsoleApp1\test7\obj\Debug\test7.csproj.CoreCompileInputs.cache
+C:\Users\cyzh8\source\C#\ConsoleApp1\test7\obj\Debug\test7.exe
+C:\Users\cyzh8\source\C#\ConsoleApp1\test7\obj\Debug\test7.pdb

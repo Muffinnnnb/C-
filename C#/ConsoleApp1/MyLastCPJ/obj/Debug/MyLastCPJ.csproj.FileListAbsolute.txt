@@ -1,0 +1,16 @@
+C:\Users\KB\C#\ConsoleApp1\MyLastCPJ\bin\Debug\MyLastCPJ.exe.config
+C:\Users\KB\C#\ConsoleApp1\MyLastCPJ\bin\Debug\MyLastCPJ.exe
+C:\Users\KB\C#\ConsoleApp1\MyLastCPJ\bin\Debug\MyLastCPJ.pdb
+C:\Users\KB\C#\ConsoleApp1\MyLastCPJ\obj\Debug\MyLastCPJ.csproj.SuggestedBindingRedirects.cache
+C:\Users\KB\C#\ConsoleApp1\MyLastCPJ\obj\Debug\MyLastCPJ.csproj.CoreCompileInputs.cache
+C:\Users\KB\C#\ConsoleApp1\MyLastCPJ\obj\Debug\MyLastCPJ.exe
+C:\Users\KB\C#\ConsoleApp1\MyLastCPJ\obj\Debug\MyLastCPJ.pdb
+C:\Users\KB\C#\ConsoleApp1\MyLastCPJ\obj\Debug\MyLastCPJ.csproj.AssemblyReference.cache
+C:\Users\cyzh8\source\C#\ConsoleApp1\MyLastCPJ\bin\Debug\MyLastCPJ.exe.config
+C:\Users\cyzh8\source\C#\ConsoleApp1\MyLastCPJ\bin\Debug\MyLastCPJ.exe
+C:\Users\cyzh8\source\C#\ConsoleApp1\MyLastCPJ\bin\Debug\MyLastCPJ.pdb
+C:\Users\cyzh8\source\C#\ConsoleApp1\MyLastCPJ\obj\Debug\MyLastCPJ.csproj.AssemblyReference.cache
+C:\Users\cyzh8\source\C#\ConsoleApp1\MyLastCPJ\obj\Debug\MyLastCPJ.csproj.SuggestedBindingRedirects.cache
+C:\Users\cyzh8\source\C#\ConsoleApp1\MyLastCPJ\obj\Debug\MyLastCPJ.csproj.CoreCompileInputs.cache
+C:\Users\cyzh8\source\C#\ConsoleApp1\MyLastCPJ\obj\Debug\MyLastCPJ.exe
+C:\Users\cyzh8\source\C#\ConsoleApp1\MyLastCPJ\obj\Debug\MyLastCPJ.pdb
