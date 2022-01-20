@@ -1,0 +1,12 @@
+C:\Users\KB\C#\study_answer_api\study_answer_api\bin\Debug\study_answer_api.exe.config
+C:\Users\KB\C#\study_answer_api\study_answer_api\bin\Debug\study_answer_api.exe
+C:\Users\KB\C#\study_answer_api\study_answer_api\bin\Debug\study_answer_api.pdb
+C:\Users\KB\C#\study_answer_api\study_answer_api\obj\Debug\study_answer_api.csproj.AssemblyReference.cache
+C:\Users\KB\C#\study_answer_api\study_answer_api\obj\Debug\study_answer_api.csproj.SuggestedBindingRedirects.cache
+C:\Users\KB\C#\study_answer_api\study_answer_api\obj\Debug\study_answer_api.Form1.resources
+C:\Users\KB\C#\study_answer_api\study_answer_api\obj\Debug\study_answer_api.Properties.Resources.resources
+C:\Users\KB\C#\study_answer_api\study_answer_api\obj\Debug\study_answer_api.csproj.GenerateResource.cache
+C:\Users\KB\C#\study_answer_api\study_answer_api\obj\Debug\study_answer_api.csproj.CoreCompileInputs.cache
+C:\Users\KB\C#\study_answer_api\study_answer_api\obj\Debug\study_answer_api.exe
+C:\Users\KB\C#\study_answer_api\study_answer_api\obj\Debug\study_answer_api.pdb
+C:\Users\KB\C#\study_answer_api\study_answer_api\obj\Debug\study_answer_api.Form2.resources
