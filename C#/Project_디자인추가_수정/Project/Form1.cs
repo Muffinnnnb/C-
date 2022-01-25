@@ -126,7 +126,7 @@ namespace Project
                 request.Method = "POST";
                 string query = textBox1.Text; //번역하고자 하는 문장.
 
-                //source ko, target en 한->영 query문장을 번역.
+                //ex) source ko, target en 한->영 query문장을 번역.
                 byte[] byteDataParams = Encoding.UTF8.GetBytes("source=" + source + "&target=" + target + "&text=" + query);
 
                 request.ContentType = "application/x-www-form-urlencoded";
@@ -219,7 +219,7 @@ namespace Project
 
 
 
-                //binary 이미지를 읽기 쉽도록 이진화 (픽셀당 색값과 명암값을 없앤다)
+                //binary 이미지를 읽기 쉽도록 이진화 (픽셀당 RGB값과 명암값을 없앤다)
                 for (int i = 0; i < bmp.Width; i++)
                 {
                     for (int j = 0; j < bmp.Height; j++)
@@ -240,10 +240,14 @@ namespace Project
                     var engine = new TesseractEngine(@"./tessdata", language, EngineMode.TesseractAndLstm);  //tessdata(문자인식 세팅값) 위치
                     var result = engine.Process(pix);
 
-                    textBox1.Text = result.GetText().TrimStart();  //공백 제거하여 텍스트박스에 삽입
-
+                    textBox1.Text = result.GetText().TrimStart();//공백 제거하여 텍스트박스에 삽입
+                    if (language == "jpn")
+                    {
+                        textBox1.Text = textBox1.Text.Replace(" ", "");
+                    }
 
                     pictureBox1.Image = pictureBox1.Image;
+                    dialog = null;
 
                 }
                 catch
@@ -251,6 +255,7 @@ namespace Project
                     MessageBox.Show("실행파일이 있는 폴더에 tessdata 폴더를 삽입해주세요!!");
                 }
 
+                
 
 
             }
