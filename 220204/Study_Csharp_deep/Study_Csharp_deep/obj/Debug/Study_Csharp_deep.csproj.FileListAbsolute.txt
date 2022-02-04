@@ -1,0 +1,11 @@
+C:\Users\KB\Desktop\220204\Study_Csharp_deep\Study_Csharp_deep\bin\Debug\Study_Csharp_deep.exe.config
+C:\Users\KB\Desktop\220204\Study_Csharp_deep\Study_Csharp_deep\bin\Debug\Study_Csharp_deep.exe
+C:\Users\KB\Desktop\220204\Study_Csharp_deep\Study_Csharp_deep\bin\Debug\Study_Csharp_deep.pdb
+C:\Users\KB\Desktop\220204\Study_Csharp_deep\Study_Csharp_deep\obj\Debug\Study_Csharp_deep.csproj.AssemblyReference.cache
+C:\Users\KB\Desktop\220204\Study_Csharp_deep\Study_Csharp_deep\obj\Debug\Study_Csharp_deep.csproj.SuggestedBindingRedirects.cache
+C:\Users\KB\Desktop\220204\Study_Csharp_deep\Study_Csharp_deep\obj\Debug\Study_Csharp_deep.Form1.resources
+C:\Users\KB\Desktop\220204\Study_Csharp_deep\Study_Csharp_deep\obj\Debug\Study_Csharp_deep.Properties.Resources.resources
+C:\Users\KB\Desktop\220204\Study_Csharp_deep\Study_Csharp_deep\obj\Debug\Study_Csharp_deep.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\220204\Study_Csharp_deep\Study_Csharp_deep\obj\Debug\Study_Csharp_deep.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\220204\Study_Csharp_deep\Study_Csharp_deep\obj\Debug\Study_Csharp_deep.exe
+C:\Users\KB\Desktop\220204\Study_Csharp_deep\Study_Csharp_deep\obj\Debug\Study_Csharp_deep.pdb
